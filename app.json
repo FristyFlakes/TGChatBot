@@ -1,0 +1,64 @@
+{
+  "name": "ChatBot",
+  "description": "Simple ChatBot in Telethon.",
+  "logo": "https://i.imgur.com/PWiznz1.png",
+  "keywords": [
+    "telegram",
+    "chatbot",
+    "plugin",
+    "telegram-chatbot",
+    "productivity"
+  ],
+  "repository": "https://github.com/CyberBoyAyush/TGChatBot",
+  "website": "https://visi.tk/cyberboyayush",
+  "success_url": "t.me/AyushBots",
+  "env": {
+    "ENV": {
+      "description": "Setting this to ANYTHING will enable heroku.",
+      "value": "ANYTHING"
+    },
+    "BOT_TOKEN": {
+      "description": "Your Bot Token.",
+      "value": ""
+    },
+    "CUSTOM_IMG": {
+      "description": "Link Of A Image For Start.",
+      "value": "",
+      "required": false
+    },
+    "DUMB_CHAT": {
+      "description": "Group ID Where Your Logs Will Go.",
+      "value": ""
+    },
+    "OWNER_ID": {
+      "description": "Your Owner ID",
+      "value": ""
+    },
+    "CUSTOM_START": {
+      "description": "Custom Message For Start.",
+      "value": "",
+      "required": false
+    },
+    "APP_ID": {
+      "description": "Get this value from my.telegram.org! Please do not steal",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get this value from my.telegram.org! Please do not steal",
+      "value": ""
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "12"
+      }
+    }
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
