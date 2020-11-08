@@ -1,0 +1,1 @@
+chatrobot: python -m chatrobot
