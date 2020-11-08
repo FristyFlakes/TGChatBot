@@ -11,7 +11,7 @@
 # Normal Way
 ```python3
 git clone https://github.com/CyberBoyAyush/TGChatBot
-cd ChatBot
+cd TGChatBot
 pip install -r requirements.txt
 # Make A file Named local_config and put all your values There and Then Run the bot.
 python3 -m chatrobot
