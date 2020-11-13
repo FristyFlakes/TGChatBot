@@ -38,4 +38,4 @@ python -m chatrobot
 * `OWNER_ID`: ID of the bot owner, He/she can be abled to access bot in bot only mode too(private mode).
 
 # Credits:
-* @StarkGang
+* [@StarkGang](https://GitHub.com/StarkGang)
