@@ -36,3 +36,6 @@ python -m chatrobot
 * `CUSTOM_IMG`: Cutsom Image On Start Msg.
 
 * `OWNER_ID`: ID of the bot owner, He/she can be abled to access bot in bot only mode too(private mode).
+
+# Credit
+Thanks To [StarkGang](https://GitHub.com/StarkGang) For Code
