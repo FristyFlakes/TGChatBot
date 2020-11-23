@@ -3,7 +3,8 @@
 <h4 align="center">A Powerful ChatBot For Pros😜</h4>
 <h4 align="center">Easy To Deploy</h4>
 
-
+[![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/CyberBoyAyush/TGChatBot)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/CyberBoyAyush/TGChatBot)
 
 # Deploy
 [![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/CyberBoyAyush/TGChatBot)
@@ -35,3 +36,6 @@ python -m chatrobot
 * `CUSTOM_IMG`: Cutsom Image On Start Msg.
 
 * `OWNER_ID`: ID of the bot owner, He/she can be abled to access bot in bot only mode too(private mode).
+
+# Credit
+Thanks To [StarkGang](https://GitHub.com/StarkGang) For Code
